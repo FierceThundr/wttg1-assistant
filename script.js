@@ -219,7 +219,7 @@ var sitedata = {
       </p>`},
     {"name":`<i class="fa fa-question-circle fa-lg"></i> Feedback`,"content":`
     <h1>Feedback</h1>
-    <p>If you wish to provide feedback or report a bug, please message leave a comment on the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2211437048" target="_blank" rel="noreferrer">steam guide</a> for the helper or open an issue on the <a href="https://github.com/FierceThundr/wttg2-assistant/issues" target="_blank" rel="noreferrer">github page</a>!</p>`}
+    <p>If you wish to provide feedback or report a bug, please message leave a comment on the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2211437048" target="_blank" rel="noreferrer">steam guide</a> for the helper or open an issue on the <a href="https://github.com/FierceThundr/wttg1-assistant/issues" target="_blank" rel="noreferrer">github page</a>!</p>`}
   ]
 }
 
