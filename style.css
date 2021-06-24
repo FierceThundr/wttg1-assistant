@@ -197,16 +197,16 @@ width:33%;
 
 .noteinput {
 background:rgba(0,0,0,0);
-bottom:95px;
+bottom:75px;
 color:inherit;
 font-size:15px;
-height:460px;
+height:480px;
 left:50%;
 margin:20px 0 0;
 position:absolute;
 resize:none;
 transform:translate(-50%,0);
-width:520px;
+width:500px;
 }
 
 .notekeys {
