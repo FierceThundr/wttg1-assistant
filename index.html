@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--The Welcome To The Game II Assistant is built to help players of WTTG2
+<!--The Welcome To The Game I Assistant is built to help players of WTTG2
     Copyright (C) 2021 Fierce Thunder
 
     This program is free software: you can redistribute it and/or modify
@@ -17,12 +17,12 @@
 <html lang="en">
   <head>
     <script>if (location.protocol !== 'https:') {location.replace(`https:${location.href.substring(location.protocol.length)}`)}</script>
-    <title>WTTG2 Assistant</title>
+    <title>WTTG1 Assistant</title>
     <link rel="preconnect" href="https://unpkg.com">
     <link rel="preconnect" href="https://use.fontawesome.com">
     <meta charset="utf-8">
     <meta name="theme-color" content="#111111">
-    <meta name="description" content="An interactive helper for Welcome To The Game 2">
+    <meta name="description" content="An interactive helper for Welcome To The Game 1">
     <meta name="author" content="FierceThundr_">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,7 +49,7 @@
       <button onclick="wikiupdate(-1)" style="width:38px;height:38px;margin: 0 45px 0 0;"><i class="fa fa-arrow-left fa-2x"></i></button><div style="width:161px;display:inline-block"><h1 id="wikititle" style="margin: 10px 0 0 0;">Wiki I</h1></div><button onclick="wikiupdate(1)" style="width:38px;height:38px;margin: 0 0 0 45px;"><i class="fa fa-arrow-right fa-2x"></i></button><br>
       <textarea oninput="wikiinput(this.value)" id="wikidata" placeholder="Copy and Paste wiki sites here to import..." style="font-size:13px;margin:10px 0 0 0;width:320px;background-color:rgba(0, 0, 0, 0);color:inherit;resize: none;overflow:hidden;" rows="1"></textarea>
       <table style="margin: 5px 0 0 0;bottom:515px;left:50%;position:absolute;transform:translate(-50%,0);">
-        <caption id="keycount"><b>Keys remaining: 2</b></caption>
+        <caption></caption>
         <tr><th>Site Name</th><th>Availability</th><th>Markers</th></tr>
       </table>
       <div class="wikidiv" data-simplebar>
@@ -64,7 +64,6 @@
             <tr><td><button><i class="fa fa-link fa-lg"></i></button> - Wiki Link Found Here</td></tr>
             <tr><td><br>&gt; Use the arrows above to cycle imported wikis</td></tr>
             <tr><td>&gt; Keys entered into the integrated notepad are saved automatically</td></tr>
-            <tr><td>&gt; Save site passwords into the wifi block</td></tr>
             <tr><td>&gt; If you need help getting started you can visit the info block</td></tr>
             <tr><td class="secondary">&gt; Refreshing the page will erase all data</td></tr>
             <tr><td onclick="wikidemo()"><br>&gt; Click here for a demo of the wiki block!</td></tr>
@@ -97,46 +96,6 @@
       </p>
     </div>
     
-    <!-- Wifi Block -->
-    <div class="maindiv">
-      <p class="block_ver"><i>Wifi Block Version 1.0.1</i></p>
-      <h1 style="margin: 10px 0 0 0">Wifi</h1><br>
-      <div class="blocklist" data-simplebar>
-        <div id="wifilist">
-        </div>
-      </div>
-      <div class="blockdata" style="text-align:left;" data-simplebar>
-        <div id="wifidata">
-          <h2 style="margin:90px 0 0 0">Welcome to the wifi block</h2>
-          <p>
-            Here you can view data collected about the wifi networks available in the game. This includes information such as trace times, injection information, and locations. In addition, there is a scripted timer you can use to keep track of when the cops will be done tracking you.
-          </p>
-        </div>
-      </div>
-      <div class="wifitimer">
-        <!-- 1 - ornalncqdwma -->
-        <p id="wifitimer" style="margin:0;font-family:Consolas,monaco,monospace;overflow:visible;">[###########################00:00###########################]</p>
-      </div>
-    </div>
-    
-    <!-- Tenant Block -->
-    <div class="maindiv">
-      <p class="block_ver"><i>Tenant Block Version 1.0.1</i></p>
-      <h1 style="margin: 10px 0 0 0">Tenants</h1><br>
-      <div class="blocklist" style="height:567px" data-simplebar>
-        <div id="tenantlist">
-        </div>
-      </div>
-      <div class="blockdata" style="text-align:left;height:567px" data-simplebar>
-        <div id="tenantdata">
-          <h2 style="margin:90px 0 0 0">Welcome to the tenant block</h2>
-          <p>
-            Here you can view a database of tenants located throughout the Welcome to the Game II building. In addition, you can view various pieces of information including if they are viable candidates for the doll maker quest.
-          </p>
-        </div>
-      </div>
-    </div>
-    
     <!-- Info Block -->
     <div class="maindiv">
       <p class="block_ver"><i>Info Block Version 1.3.1</i></p>
@@ -158,16 +117,6 @@
     <!-- Tips Banner -->
     <div>
       <p style="margin: 5px 0 0 0;font-family: Consolas,monaco,monospace;" id="tips">[Tip] Welcome To The Game</p>
-    </div>
-    
-    <!-- Simulator Block -->
-    <div id="sim_wrapper" style="display:none;">
-      <div id="sim_div" class="simulator">
-        <h3 id="sim_title">Hitman Trainer</h3>
-        <button onclick="simulatortoggle()" id="sim_start">Start Simulation</button>
-        <button onclick="simulatorverify()" style="height:50px">I heard that</button>
-        <button onclick="simulatorhide()" style="visibility:visible">Toggle Overlay</button>
-      </div>
     </div>
     
     <!-- Clickpoints Overlay -->

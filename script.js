@@ -1,5 +1,5 @@
 
-/*  The Welcome To The Game II Assistant is built to help players of WTTG2
+/*  The Welcome To The Game I Assistant is built to help players of WTTG2
     Copyright (C) 2021 Fierce Thunder
 
     This program is free software: you can redistribute it and/or modify
@@ -78,117 +78,7 @@ var sitedata = {
     "THANATOS":           {id:253,times:":45 - :59"},
     "Little Friends":     {id:254,times:":45 - :59",sub:["Error"]},
     "Brutal Underground": {id:256,times:":30 - :59",sub:["Sign Up"]}
-  }, wifidata = [
-    {"position":0,"range":1,"level":0,"track":{"time":[960,660],"chance":["88","100"]},"channel":"1","name":"TP-LINK_8907_5G"},
-    {"position":1,"range":1,"level":0,"track":{"time":[420,300],"chance":["82","100"]},"channel":"10","name":"TC8717T10"},
-    {"position":1,"range":1,"level":0,"track":{"time":[480,330],"chance":["89","100"]},"channel":"1","name":"DDW35363"},
-    {"position":1,"range":2,"level":0,"track":{"time":[510,360],"chance":["75","100"]},"channel":"3","name":"FreeWifi7899"},
-    {"position":2,"range":1,"level":0,"track":{"time":[630,420],"chance":["70","100"]},"channel":"8","name":"doody"},
-    {"position":3,"range":1,"level":0,"track":{"time":[300,210],"chance":["95","100"]},"channel":"7","name":"FreeWifiNoVirus"},
-    
-    {"position":0,"range":1,"level":1,"track":{"time":[360,240],"chance":["83","100"]},"channel":"8","probe":{"port":"260 - 300"},"name":"SSWIFI"},
-    {"position":0,"range":1,"level":1,"track":{"time":[300,210],"chance":["65","100"]},"channel":"8","probe":{"port":"600 - 750"},"name":"D59709"},
-    {"position":1,"range":1,"level":1,"track":{"time":[540,360],"chance":["65","100"]},"channel":"12","probe":{"port":"500 - 675"},"name":"PWF1382445"},
-    {"position":1,"range":3,"level":1,"track":{"time":[450,330],"chance":["70","100"]},"channel":"5","probe":{"port":"350 - 550"},"name":"Chanyia"},
-    {"position":2,"range":1,"level":1,"track":{"time":[540,390],"chance":["85","100"]},"channel":"3","probe":{"port":"900 - 975"},"name":"Flter"},
-    {"position":2,"range":1,"level":1,"track":{"time":[720,480],"chance":["60","100"]},"channel":"3","probe":{"port":"485 - 715"},"name":"SuddenLink990"},
-    {"position":3,"range":1,"level":1,"track":{"time":[660,450],"chance":["85","100"]},"channel":"7","probe":{"port":"455 - 520"},"name":"WIFIAF1A5D"},
-    {"position":3,"range":3,"level":1,"track":{"time":[660,450],"chance":["69","100"]},"channel":"6","probe":{"port":"145 - 210"},"name":"tedata"},
-    {"position":3,"range":3,"level":1,"track":{"time":[690,480],"chance":["74","100"]},"channel":"6","probe":{"port":"375 - 830"},"name":"mycci7471"},
-    
-    {"position":0,"range":1,"level":2,"track":{"time":[390,270],"chance":["48","100"]},"channel":"4","inject":{"count":"99","wait":"7","crash":"61","total":"450 - 670"},"name":"DA3CHICKZ"},
-    {"position":0,"range":1,"level":2,"track":{"time":[480,330],"chance":["49","100"]},"channel":"6","inject":{"count":"96","wait":"11","crash":"39","total":"620 - 745"},"name":"UAPPY-FI"},
-    {"position":0,"range":1,"level":2,"track":{"time":[540,360],"chance":["63","100"]},"channel":"7","inject":{"count":"42","wait":"8","crash":"41","total":"100 - 360"},"name":"Khaled"},
-    {"position":1,"range":1,"level":2,"track":{"time":[810,570],"chance":["40","100"]},"channel":"4","inject":{"count":"100","wait":"3","crash":"58","total":"510 - 675"},"name":"NetflxnChillByMyself"},
-    {"position":1,"range":1,"level":2,"track":{"time":[720,480],"chance":["44","100"]},"channel":"11","inject":{"count":"170","wait":"5","crash":"62","total":"650 - 950"},"name":"DevShareTWO"},
-    {"position":1,"range":2,"level":2,"track":{"time":[540,360],"chance":["63","100"]},"channel":"12","inject":{"count":"146","wait":"7","crash":"58","total":"855 - 980"},"name":"WIRELESSNET2"},
-    {"position":2,"range":1,"level":2,"track":{"time":[630,450],"chance":["65","100"]},"channel":"1","inject":{"count":"61","wait":"9","crash":"43","total":"220 - 475"},"name":"FBI Survellance Van"},
-    {"position":2,"range":1,"level":2,"track":{"time":[780,540],"chance":["50","100"]},"channel":"7","inject":{"count":"78","wait":"9","crash":"47","total":"230 - 530"},"name":"Ataua"},
-    {"position":2,"range":3,"level":2,"track":{"time":[600,420],"chance":["56","100"]},"channel":"12","inject":{"count":"63","wait":"7","crash":"41","total":"275 - 320"},"name":"swsecure"},
-    {"position":3,"range":1,"level":2,"track":{"time":[450,300],"chance":["46","100"]},"channel":"5","inject":{"count":"79","wait":"5","crash":"72","total":"540 - 800"},"name":"ali"},
-    {"position":3,"range":1,"level":2,"track":{"time":[630,420],"chance":["54","100"]},"channel":"9","inject":{"count":"78","wait":"6","crash":"78","total":"87 - 660"},"name":"SENDemo"},
-
-    {"position":0,"range":1,"level":3,"track":{"time":[1020,720],"chance":["29","100"]},"channel":"2","inject":{"count":"83","wait":"3","crash":"66","total":"660 - 840"},"name":"Ethical_Hacker"},
-    {"position":0,"range":1,"level":3,"track":{"time":[840,600],"chance":["29","100"]},"channel":"7","inject":{"count":"67","wait":"6","crash":"37","total":"797 - 971"},"name":"YDidIOrderThisWater"},
-    {"position":0,"range":1,"level":3,"track":{"time":[1170,810],"chance":["26","100"]},"channel":"1","inject":{"count":"64","wait":"12","crash":"29","total":"600 - 808"},"name":"SnuffBox"},
-    {"position":0,"range":1,"level":3,"track":{"time":[690,480],"chance":["43","100"]},"channel":"1","inject":{"count":"29","wait":"10","crash":"32","total":"300 - 450"},"name":"MaxiumBlack"},
-    {"position":0,"range":1,"level":3,"track":{"time":[960,660],"chance":["36","100"]},"channel":"4","inject":{"count":"78","wait":"3","crash":"53","total":"890 - 990"},"name":"Bring Beer to 504"},
-    {"position":1,"range":1,"level":3,"track":{"time":[720,510],"chance":["35","100"]},"channel":"7","inject":{"count":"4","wait":"4","crash":"51","total":"50 - 98"},"name":"KPN Fon"},
-    {"position":1,"range":2,"level":3,"track":{"time":[750,510],"chance":["43","100"]},"channel":"7","inject":{"count":"85","wait":"7","crash":"30","total":"820 - 950"},"name":"SilenceOfTheLANS"},
-    {"position":1,"range":3,"level":3,"track":{"time":[870,600],"chance":["35","100"]},"channel":"12","inject":{"count":"54","wait":"10","crash":"29","total":"432 - 790"},"name":"DrAdelDink"},
-    {"position":2,"range":1,"level":3,"track":{"time":[840,570],"chance":["26","100"]},"channel":"5","inject":{"count":"19","wait":"8","crash":"47","total":"100 - 300"},"name":"TellMyWifiLoveHer"},
-    {"position":2,"range":1,"level":3,"track":{"time":[1020,720],"chance":["30","100"]},"channel":"3","inject":{"count":"63","wait":"7","crash":"57","total":"500 - 708"},"name":"PHATCLOUD5"},
-    {"position":2,"range":3,"level":3,"track":{"time":[1500,1050],"chance":["5","100"]},"channel":"5","inject":{"count":"49","wait":"15","crash":"80","total":"950 - 999"},"name":"DOSNET"},
-    {"position":2,"range":3,"level":3,"track":{"time":[750,540],"chance":["28","100"]},"channel":"10","inject":{"count":"74","wait":"10","crash":"34","total":"477 - 945"},"name":"RideThisCrazyWave"},
-    {"position":3,"range":1,"level":3,"track":{"time":[570,390],"chance":["45","100"]},"channel":"10","inject":{"count":"19","wait":"4","crash":"41","total":"154 - 249"},"name":"WINSLOWS"},
-    {"position":3,"range":1,"level":3,"track":{"time":[720,510],"chance":["41","100"]},"channel":"6","inject":{"count":"33","wait":"11","crash":"36","total":"250 - 477"},"name":"JonesLaw"},
-    {"position":3,"range":3,"level":3,"track":{"time":[780,540],"chance":["32","100"]},"channel":"4","inject":{"count":"34","wait":"8","crash":"37","total":"273 - 506"},"name":"Big Dave Network"},
-  
-    {"position":3,"range":1,"level":2,"track":{"time":[810,570],"chance":["65","100"]},"channel":"5","inject":{"count":"29","wait":"12","crash":"46","total":"55 - 180"},"name":"DonaldsWifi","secret":1},
-    {"position":2,"range":1,"level":3,"track":{"time":[720,510],"chance":["21","100"]},"channel":"4","inject":{"count":"27","wait":"8","crash":"76","total":"400 - 556"},"name":"Hidden Network","secret":1}
-  ], tenantdata = [
-    {"doll":0,"sex":0,"age":32,"name":"Addyson Pearson","note":"Has very LOUD dog. Barks a lot."},
-    {"doll":0,"sex":0,"age":56,"name":"Alden Chambers","note":"Always wears gloves"},
-    {"doll":0,"sex":0,"age":51,"name":"Alfred Crosby","note":"You can hear the sounds of his mistress beating him into submission every Sunday and Thursday from 7pm-10pm. Would recommend ear plugs for those days."},
-    {"doll":1,"sex":1,"age":18,"name":"Alice Shaw","note":"Is a flute player"},
-    {"doll":0,"sex":0,"age":34,"name":"Alonso Frost","note":"Argues with wife"},
-    {"doll":1,"sex":1,"age":27,"name":"Ashlynn Rangel","note":"Studying for PHD, always pays on time."},
-    {"doll":1,"sex":1,"age":29,"name":"Ayana Armstrong","note":"Always wears black, very mysterious. Guy named Adam visits her often."},
-    {"doll":0,"sex":0,"age":41,"name":"Brayden Kelly","note":"Way too noisy, cops called several times for disturbances."},
-    {"doll":0,"sex":0,"age":52,"name":"Brendan Davenport","note":"Complaints from members staying at this apartment complex due to hearing strange noises. Final warning."},
-    {"doll":0,"sex":0,"age":43,"name":"Brenden Fox","note":"Has severe body odor."},
-    {"doll":0,"sex":0,"age":43,"name":"Brennan Mcgee","note":"Is clean"},
-    {"doll":1,"sex":1,"age":35,"name":"Bria Lozano","note":"Often comes drunk at night. Has a lot of bruises."},
-    {"doll":1,"sex":1,"age":42,"name":"Carissa Whitehead","note":"Has teenage kids, one is a typical teen and causes problems."},
-    {"doll":0,"sex":0,"age":64,"name":"Carlos Moon","note":"Creeps out female tenants"},
-    {"doll":1,"sex":1,"age":18,"name":"Clare Holloway","note":"Works late nights and always pays rent with cash."},
-    {"doll":0,"sex":0,"age":31,"name":"Cristian Ross","note":"Always smells peculiar (formaldehyde?)"},
-    {"doll":0,"sex":0,"age":21,"name":"Dale Jackson","note":"Has track marks"},
-    {"doll":0,"sex":0,"age":33,"name":"Damon Sullivan","note":"Performs local volunteer work"},
-    {"doll":1,"sex":1,"age":38,"name":"Dana Steele","note":"Clean freak, really werid. Leaves shoes outside door. "},
-    {"doll":0,"sex":0,"age":37,"name":"Darren Alexander","note":"Is a registered sex offender"},
-    {"doll":0,"sex":0,"age":48,"name":"Dawson Blevins","note":"Often has nieces visit him."},
-    {"doll":0,"sex":0,"age":40,"name":"Deacon Woodward","note":"Usually late on rent"},
-    {"doll":1,"sex":1,"age":37,"name":"Delilah Walters","note":"Havent seen in weeks. No response, mail is piling up."},
-    {"doll":1,"sex":1,"age":24,"name":"Diya Marquez","note":"Always has shady people around."},
-    {"doll":1,"sex":0,"age":60,"name":"Drake Clay","note":"Has one child. Female."},
-    {"doll":1,"sex":1,"age":19,"name":"Emma Everett","note":"Plumbing clogged again. Think she's doing it on purpose."},
-    {"doll":0,"sex":0,"age":51,"name":"Erik Tucker","note":"Currently overseas"},
-    {"doll":0,"sex":0,"age":38,"name":"Fletcher Salazar","note":"Probably a meth addict."},
-    {"doll":1,"sex":1,"age":22,"name":"Hallie Nicholson","note":"Is a night owl."},
-    {"doll":1,"sex":1,"age":39,"name":"Haylie Morris","note":"Has the consistency to talk everyones ear off."},
-    {"doll":1,"sex":1,"age":40,"name":"Hillary Rocha","note":"Works out a lot, alway takes early morning jobs."},
-    {"doll":0,"sex":0,"age":25,"name":"Hudson Raymond","note":"Divorced"},
-    {"doll":0,"sex":0,"age":51,"name":"Jack Ferguson","note":"Wants to move two flights up"},
-    {"doll":1,"sex":1,"age":23,"name":"Janiah Osborn","note":"Recently made redundant. May be late on payment this month."},
-    {"doll":1,"sex":1,"age":35,"name":"Jenny Sutton","note":"Is a late payer... Likely an alcoholic apartment smells of strong liquor"},
-    {"doll":0,"sex":0,"age":21,"name":"Jordyn Dalton","note":"Is currently out of town for family matters. Will be back at the end of the month. Rent payment expected to be made on schedule."},
-    {"doll":0,"sex":0,"age":46,"name":"Keith Cooke","note":"Keeps some interesting \"surprises\" underneath the bathroom floorboards."},
-    {"doll":1,"sex":1,"age":26,"name":"Kellen Blake","note":"Works night shifts."},
-    {"doll":1,"sex":1,"age":37,"name":"Kylie Hogan","note":"Has two daughters."},
-    {"doll":1,"sex":1,"age":19,"name":"Larissa Clay","note":"Carries her chihuahua in her purse."},
-    {"doll":1,"sex":1,"age":28,"name":"Lea Chen","note":"Always orders take out, never leaves apartment."},
-    {"doll":1,"sex":1,"age":21,"name":"Lilia Holder","note":"Hair smells like lavender"},
-    {"doll":1,"sex":1,"age":21,"name":"Lilian Tyler","note":"Typical college drunk."},
-    {"doll":1,"sex":1,"age":41,"name":"Londyn Morales","note":"Very nice, always brings down cookies."},
-    {"doll":0,"sex":0,"age":29,"name":"Lucas Holmes","note":"I hear strange noises coming from the apartment at odd hours. I have received no complaints yet so it seems there is nothing to be concerned about at the moment but... the noises... I have never heard anything like it before."},
-    {"doll":1,"sex":1,"age":18,"name":"Marie Downs","note":"Parents visit often, worried about her. Not sure about this one."},
-    {"doll":0,"sex":0,"age":73,"name":"Mason Santiago","note":"Walks with a limp."},
-    {"doll":0,"sex":0,"age":59,"name":"Micah Patel","note":"Sleep walks"},
-    {"doll":1,"sex":1,"age":29,"name":"Miriam Schwartz","note":"Neglects house maintenance"},
-    {"doll":0,"sex":0,"age":83,"name":"Nash Huynh","note":"Veteran"},
-    {"doll":1,"sex":1,"age":33,"name":"Noe Willis","note":"Aspiring singer, plays piano all day and signs."},
-    {"doll":1,"sex":1,"age":25,"name":"Reese Beasley","note":"Has a pet turtle, works as a nurse in the nearby hospital"},
-    {"doll":0,"sex":0,"age":21,"name":"Richard Vincent","note":"for sure not getting their security deposit back"},
-    {"doll":0,"sex":0,"age":29,"name":"Ronnie Park","note":"In last 3 years he has a friendly beautiful wife that i ever met, but since his wife's death he never gooes outside."},
-    {"doll":1,"sex":1,"age":36,"name":"Rosemary Holt","note":"Watches adult films very loudly."},
-    {"doll":0,"sex":0,"age":23,"name":"Shawn Green","note":"Always pays rent 1 day early, and deathly silent, nice man though."},
-    {"doll":1,"sex":1,"age":45,"name":"Shea Holden","note":"Reeks of cigarettes, avid chain smoker."},
-    {"doll":1,"sex":1,"age":27,"name":"Skylar Pennington","note":"Is out on vacation for 3 months"},
-    {"doll":0,"sex":0,"age":36,"name":"Tommy Mata","note":"Rarely comes out of apartment and is socially awkward."},
-    {"doll":1,"sex":0,"age":43,"name":"Tommy Ryan","note":"Has 2 kids, boy, girl."},
-    {"doll":0,"sex":0,"age":18,"name":"Walker Johnston","note":"Constant problems with police"}
-  ], tips = [
+  }, tips = [
     "Remember to check in the source code",
     "You shouldnt check the peep hole",
     "Hacks are the best way to gain DosCoin",
@@ -665,21 +555,7 @@ var data = {
   "wiki":{
     "current":1,
     "keys":[null,0,0,0],
-    "total":[null,2,3,3]},
-  "wifi":{
-    "active":0,
-    "reference":0,
-    "timer":[-1,0,""],
-    "passwords":Full_array(100,"")},
-  "tenant":{
-    "rooms":Full_array(100,""),
-    "availability":Full_array(100,1)},
-  "simulator":{
-    "soundplayed":0,
-    "active":0,
-    "reference":0,
-    "visible":1,
-    "sound":new Audio('Assets/hitman_doorknob.mp3')}
+    "total":[null,2,3,3]}
 }
 
 window.temp = 100
@@ -768,111 +644,6 @@ function noteinput(content) {//Attempt to find and save keys in note block input
 }
 
 //=============================
-//=============================Wifi Functions
-//=============================
-function passwordinput(i,p) {//Update wifi label if password is provided (Save modification)
-  data.wifi.passwords[i] = p
-  document.getElementById("wifibutton" + i).innerHTML = "<i class='fa " + ((data.wifi.passwords[i] !== "") ? 'fa-check-square':'fa-square') + " fa-lg'></i> " + wifidata[i]["name"];
-}
- 
-function timerupdate() {//Update wifi timer every second
-  if (data.wifi.timer[0] == -1) {
-    clearTimeout(data.wifi.reference)
-    data.wifi.reference = -1
-    return}
-  var string = "###########################"
-  var a = "[" + data.wifi.timer[2] + string.slice(data.wifi.timer[2].length) + String(Math.floor(data.wifi.timer[0]/60)).padStart(2,'0') + ":" + String(Math.floor(data.wifi.timer[0]%60)).padStart(2,'0') + string + "]";
-  var b = Math.ceil((data.wifi.timer[0]/data.wifi.timer[1]*100)/(100/a.length))
-  if (data.wifi.timer[0] == 60) {var audio = new Audio('Assets/general_motionsensoralert.mp3');audio.play();};
-  document.getElementById("wifitimer").innerHTML = '<span class="secondary">' + a.slice(0,a.length - b) + '</span>' + a.slice(a.length - b)
-  data.wifi.timer[0] -= 1
-}
-
-function timerset(i,n) {//Update wifi timer
-  click();
-  data.wifi.timer = [i,i,n]
-  if (data.wifi.reference !== -1) {
-    clearTimeout(data.wifi.reference)
-    data.wifi.reference = -1
-  }
-  data.wifi.reference = setInterval(timerupdate,1000);
-  timerupdate();
-}
-
-function timerpause() {
-  if (data.wifi.reference == -1) {
-    data.wifi.reference = setInterval(timerupdate,1000);
-  } else {
-    clearTimeout(data.wifi.reference)
-    data.wifi.reference = -1
-  }
-}
-
-function wifiupdate(i) {//Change wifi page
-  console.log(data.wifi.passwords[i])
-  click()
-  var v = wifidata[i]
-  document.getElementById("wifidata").innerHTML = `
-<h2>${v.name}</h2>
-<table>
-  <tbody>
-    <tr><td>Position</td><td>${["Desk","Window","Bedside","Balcony"][v.position]}</td></tr>
-    <tr><td>Dongle level</td><td>Level ${v.range} required</td></tr>
-    <tr><td>Security</td><td>${["Unsecured","WEP","WPA","WPA2"][v.level]}</td></tr>
-    <tr><td>Track Rate (Normal)</td><td>${String(Math.abs(Math.floor(v.track.time[0]/60))).padStart(2,'0') + ":" + String(Math.abs(Math.floor(v.track.time[0]%60))).padStart(2,'0')}</td></tr>
-    <tr><td>Track Rate (1337)</td><td>${String(Math.abs(Math.floor(v.track.time[1]/60))).padStart(2,'0') + ":" + String(Math.abs(Math.floor(v.track.time[1]%60))).padStart(2,'0')}</td></tr>
-    <tr><td>Track Chance (Normal)</td><td>${v.track.chance[0]}%</td></tr>
-    <tr><td>Track Chance (1337)</td><td>${v.track.chance[1]}%</td></tr>
-    <tr><td>Channel</td><td>${v.channel}</td></tr>
-    
-    ${(v.level == 1) ? `<tr><td>Port Range</td><td>${v.probe.port}</td></tr>`:``}
-    ${(v.level >= 2) ? `<tr><td>Inject Limit</td><td>${v.inject.count}</td></tr>`:``}
-    ${(v.level >= 2) ? `<tr><td>Inject Cooldown</td><td>${v.inject.wait}s</td></tr>`:``}
-    ${(v.level >= 2) ? `<tr><td>Inject Success Range</td><td>${v.inject.total}</td></tr>`:``}
-    ${(v.level >= 2) ? `<tr><td>Inject Crash Time</td><td>${v.inject.crash}s</td></tr>`:``}
-    ${(v.secret) ? `<tr><td colspan="2">This wifi is not available by normal means as it is not listed when the scan command is run at its location</td></tr>`:``}
-  </tbody>
-</table>
-
-<textarea oninput="passwordinput(${i},this.value)" class="blockinput" placeholder="${(v.level == 0) ? `Unsecured Network...`:`Password...`}" style="bottom:90px;"${(v.level == 0) ? `disabled`:``}>${data.wifi.passwords[i]}</textarea><br>
-<button onclick='timerset(${v.track.time[0]},"${v.name}")' class="blockbutton" style="bottom:60px;">Start Wifi Timer</button>
-<button onclick='timerset(${v.track.time[1]},"${v.name}")' class="blockbutton" style="bottom:30px;">Start 1337 Timer</button>`
-}
-
-//=============================
-//=============================Tenant Functions
-//=============================
-function tenantinput(i,p) {//Update tenant label if password is provided (Save modification)
-  data.tenant.rooms[i] = p
-  document.getElementById("tenantbutton" + i).innerHTML = "<i class='fa " + ((data.tenant.availability[i] == 0) ? 'fa-odnoklassniki-square':(data.tenant.rooms[i] == "") ? 'fa-square':'fa-check-square') + " fa-lg'></i> " + tenantdata[i]["name"];
-}
-
-function tenanttoggle(i) {//Update tenant label if toggle is used (Save modification)
-  click()
-  data.tenant.availability[i] = (data.tenant.availability[i]) ? 0:1;
-  document.getElementById("tenantbutton").innerHTML = (data.tenant.availability[i]) ? `Mark Tenant Unavailable`:`Mark Tenant Available`
-  document.getElementById("tenantbutton" + i).innerHTML = "<i class='fa " + ((data.tenant.availability[i] == 0) ? 'fa-odnoklassniki-square':(data.tenant.rooms[i] == "") ? 'fa-square':'fa-check-square') + " fa-lg'></i> " + tenantdata[i]["name"];
-}
-
-function tenantupdate(i) {//Change tenant page
-  click()
-  var v = tenantdata[i]
-  document.getElementById("tenantdata").innerHTML = `
-<h2>${v.name}</h2>
-<table>
-  <tbody>
-    <tr><td>Age</td><td>${v.age}</td></tr>
-    <tr><td>Sex</td><td>${["Male","Female"][v.sex]}</td></tr>
-    <tr><td>Doll Maker</td><td>${["Invalid","Valid"][v.doll]}</td></tr>
-    <tr><td colspan="2">Note: ${v.note}</td></tr>
-  </tbody>
-</table>
-
-<textarea oninput="tenantinput(${i},this.value)" class="blockinput" placeholder="Tenant room number..." style="bottom:230px;" ${(v.doll == 0) ? `disabled`:``}>${data.tenant.rooms[i]}</textarea><br>
-<button onclick='tenanttoggle(${i})' class="blockbutton" id="tenantbutton" style="bottom:200px;" ${(v.doll == 0) ? `disabled`:``}>${(v.doll == 0) ? `Invalid Doll Maker Target`:data.tenant.availability[i] ? `Mark Tenant Unavailable`:`Mark Tenant Available`}</button>`
-}
-
-//=============================
 //=============================Info Block Functions
 //=============================
 function guideupdate(i) {//Change info page
@@ -883,53 +654,6 @@ function guideupdate(i) {//Change info page
 function setcolor(i,c) {//Update site color settings in memory
   localStorage.setItem(`color${i}`,c)
   document.getElementById("dom_color").innerHTML = `body {color:hsl(${localStorage.getItem('color0')},100%,50%)} .simplebar-scrollbar::before {background-color:hsl(${localStorage.getItem('color0')},100%,50%)} .child {color:hsl(${localStorage.getItem('color0')},100%,30%)} .secondary {color:hsl(${localStorage.getItem('color1')},100%,50%)} .disabled {color:hsl(${localStorage.getItem('color1')},100%,20%)}`
-}
-
-
-//==================Lucas Simulator
-function simulatorlaunch() {
-  click()
-  document.getElementById("sim_wrapper").style.display = "block"
-}
-
-function simulatortoggle() {
-  click()
-  if (data.simulator.active) {
-    document.getElementById("sim_start").innerHTML = "Start Simulation"
-    clearTimeout(data.simulator.reference)
-  } else {
-    document.getElementById("sim_start").innerHTML = "End Simulation"
-    data.simulator.reference = setTimeout(simulatorplaysound,5000)
-  }
-  data.simulator.active = (data.simulator.active) ? 0:1;
-}
-
-function simulatorplaysound() {
-  data.simulator.sound.play();
-  data.simulator.soundplayed = 1
-  data.simulator.reference = setTimeout(simulatorevaluate,10000)
-}
-
-function simulatorevaluate() {
-  if (data.simulator.soundplayed == 1) {
-    data.simulator.soundplayed = 0
-    document.getElementById("sim_title").innerHTML = `<span class="secondary"><i class="fa fa-times"></i> You have died</span>`
-    setTimeout(function () {document.getElementById("sim_title").innerHTML = "Hitman Trainer"},180000)
-  }
-  data.simulator.reference = setTimeout(simulatorplaysound,(Math.floor(Math.random() * 11) * 30000) + 600000)
-}
-
-function simulatorverify() {
-  if (data.simulator.soundplayed == 1) {var a = `<i class="fa fa-check"></i> Correct`;data.simulator.soundplayed = 0;
-  } else {var a = `<span class="secondary"><i class="fa fa-times"></i> Incorrect</span>`;};
-  document.getElementById("sim_title").innerHTML = a
-  setTimeout(function () {document.getElementById("sim_title").innerHTML = "Hitman Trainer"},10000)
-}
-
-function simulatorhide() {
-  click()
-  document.getElementById("sim_div").style.visibility = (data.simulator.visible) ? "hidden":"visible"
-  data.simulator.visible = (data.simulator.visible) ? 0:1;
 }
 
 //=============================
@@ -945,20 +669,10 @@ function tipupdate() {//Update displayed tip
 setInterval(tipupdate,10000);
 
 function setup() {//Prepare website lists and appearance
-  wifidata.forEach(function (data,index) {
-    var button = document.createElement("button")
-    document.getElementById("wifilist").appendChild(button)
-    button.outerHTML = `<button id="wifibutton${index}" onclick="wifiupdate(${index})">${"<i class='fa " + ((data["level"] == 0) ? 'fa-square-o':'fa-square') + " fa-lg'></i> " + data.name}</button>`
-  })
   guidedata.forEach(function (data,index) {
     var button = document.createElement("button")
     document.getElementById("guidelist").appendChild(button)
     button.outerHTML = `<button onclick="guideupdate(${index})">${data.name}</button>`
-  })
-  tenantdata.forEach(function (data,index) {
-    var button = document.createElement("button")
-    document.getElementById("tenantlist").appendChild(button)
-    button.outerHTML = `<button id="tenantbutton${index}" onclick="tenantupdate(${index})">${"<i class='fa " + ((data["doll"] == 0) ? 'fa-square-o':'fa-square') + " fa-lg'></i> " + data.name}</button>`
   })
   if (localStorage.getItem('color0') == undefined) {localStorage.setItem('color0',120)}
   if (localStorage.getItem('color1') == undefined) {localStorage.setItem('color1',0)}
