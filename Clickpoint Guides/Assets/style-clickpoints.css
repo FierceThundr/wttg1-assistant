@@ -1,0 +1,15 @@
+a.CPTAG {
+  outline: 10px solid rgba(255,255,0,0.75)
+}
+
+a.CFTAG {
+  outline: 10px solid rgba(0,255,30,0.75)
+}
+
+* {
+  pointer-events: none !important;
+}
+
+img.nudity {
+  filter: blur(18px) !important;
+}
