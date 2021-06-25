@@ -244,13 +244,15 @@ function Full_array(i,v) {var a = [];for (var i = i;i > 0;i--) {a.push(v);};retu
 //=============================Wiki Functions
 //=============================
 function wikiinput(content) {//Update wiki data from input field
-  var table = document.getElementById("wiki" + data.wiki.current + "list");
   document.getElementById("wikidata").value = "";
   if (content.length == 1) {return;}
-  for (var y = table.rows.length - 1; y > 0; y--) {table.deleteRow(-1);}
   var sites = content.match(/(?=^)[\w ]+[!?]?(?= -)/gm)
+  if (sites !== null) {
+    var table = document.getElementById("wiki" + data.wiki.current + "list");
+    for (var y = table.rows.length - 1; y > 0; y--) {table.deleteRow(-1);}
+	sites.forEach(function (name) {var i = sitedata[name];if (i == undefined) {buttons(name,i,0,0,0,1)} else {var o = i.id;buttons(name,i,0,0,o,2);if (i.sub !== undefined) {i.sub.forEach(function (name,m,n) {o++;buttons(name,i,m,n,o,3)})}}})
+  }
   
-  if (sites !== null) {sites.forEach(function (name) {var i = sitedata[name];if (i == undefined) {buttons(name,i,0,0,0,1)} else {var o = i.id;buttons(name,i,0,0,o,2);if (i.sub !== undefined) {i.sub.forEach(function (name,m,n) {o++;buttons(name,i,m,n,o,3)})}}})}
   function buttons(name,i,m,n,o,v) {
     var a = document.getElementById("wiki" + data.wiki.current + "list").insertRow(-1);
     var b = a.insertCell(0);
@@ -313,9 +315,9 @@ function wikidemo() {//Force update of wiki data
 //=============================Note Functions
 //=============================
 function noteinput(content) {//Attempt to find and save keys in note block input
-  var lkeys = content.match(/[1-8] - [\w]{12}/g)
+  var lkeys = content.match(/[1-8] - [\w]{4}/g)
   if (lkeys !== null) {lkeys.forEach(function (a) {data.note.keys[a.slice(0,1)] = a.slice(4,16)});}
-  document.getElementById("keyoutput").innerHTML = `<b>Key Data</b><br>${data.note.keys.join("").substr(0,48)}<br>${data.note.keys.join("").substr(48,48)}`;
+  document.getElementById("keyoutput").innerHTML = `<b>Key Data</b><br>${data.note.keys.join("")}`;
   if (data.note.keys.indexOf("????") == -1) {document.getElementById("keyoutput").innerHTML = `<b>Red Room URL</b><br>${data.note.keys.join("")}.ann`;}
 }
 
